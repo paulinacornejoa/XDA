@@ -1,0 +1,32 @@
+
+//Primary button
+
+.button_shop {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: $raleway;
+  color: $smoky;
+  font-size: $large;
+  background: $white;
+  padding: 10px 20px 10px 20px;
+  border: solid $smoky 1px;
+  text-decoration: none;
+  position: relative;
+  left: 600px;
+  top: 10px;
+}
+
+//Hover State
+
+.button_shop:hover {
+  border: solid $smoky 1px;
+  color: $silver;
+}
+
+//Focus State
+
+
+.button_shop {
+  margin-top: 10px;
+}

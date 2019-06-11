@@ -1,0 +1,153 @@
+/*Componentes del sitio*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-image: url("../img/woman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: left;
+}
+
+body {
+  font-family: "Old Standard TT", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+h4 {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  color: #A6A5A8;
+  font-size: 18px;
+  width: 70%;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.button_shop {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: "Raleway", sans-serif;
+  color: #0C0910;
+  font-size: 18px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  border: solid #0C0910 1px;
+  text-decoration: none;
+  position: relative;
+  left: 600px;
+  top: 10px;
+}
+
+.button_shop:hover {
+  border: solid #0C0910 1px;
+  color: #A6A5A8;
+}
+
+.button_shop {
+  margin-top: 10px;
+}
+
+.navbar-light {
+  background-color: #fff;
+}
+.navbar-light .navbar-brand {
+  background-color: #0C0910;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Old Standard TT", serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-link {
+  color: #0C0910;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+nav {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.white_box {
+  width: 600px;
+  height: 700px;
+  background-color: #fff;
+}
+
+.black_box {
+  width: 600px;
+  height: 700px;
+  background-color: #0C0910;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */

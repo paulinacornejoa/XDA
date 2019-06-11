@@ -1,0 +1,21 @@
+
+
+.navbar-light{
+  background-color: $white;
+
+  .navbar-brand{
+    background-color: $smoky ;
+    color: $white;
+    font-size: $xx-large;
+    font-family: $old-standard;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.nav-link {
+  color: $smoky;
+  padding-right: 15px;
+  padding-left: 15px;
+}
