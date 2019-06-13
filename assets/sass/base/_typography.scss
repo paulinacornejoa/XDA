@@ -16,9 +16,29 @@ h1 {
 h4 {
   text-align: left;
   font-family: $raleway;
+  font-weight: 400;
   color: $silver;
   font-size: $large;
   width: 70%;
   padding-left: 100px;
   padding-top: 30px;
+  line-height: normal;
+}
+
+h3 {
+  font-size: $xx-large;
+  font-family: $old-standard;
+  color: $white;
+  top: 30px;
+    left: 100px;
+    position: absolute;
+}
+
+h5 {
+  font-size: $x-large;
+  font-family: $old-standard ;
+  color: $white;
+  top: 80px;
+  left: 100px;
+  position: absolute;
 }

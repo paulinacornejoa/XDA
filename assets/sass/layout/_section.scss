@@ -1,13 +1,22 @@
 
 .white_box {
   width: 600px;
-  height: 700px;
+  height: 760px;
   background-color: $white;
 }
 .black_box {
-  width: 600px;
-  height: 700px;
+  width: 533px;
+  height: 240px;
+  top: 610px;
   background-color: $smoky;
   position: absolute;
+}
 
+.rotate-text {
+  position: absolute;
+  transform: rotate(-270deg);
+  font-family: "Old Standard TT", serif;
+  font-size: 24px;
+  left: 519px;
+  top: 734px;
 }

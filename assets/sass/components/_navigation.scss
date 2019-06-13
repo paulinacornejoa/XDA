@@ -19,3 +19,16 @@
   padding-right: 15px;
   padding-left: 15px;
 }
+
+input {
+  background-color: $white;
+  font-family: $raleway;
+  font-size: $x-small;
+  color: $smoky;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40%;
+  top: 107px;
+  left: 100px;
+  position: absolute;
+}

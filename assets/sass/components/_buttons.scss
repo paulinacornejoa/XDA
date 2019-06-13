@@ -13,20 +13,21 @@
   border: solid $smoky 1px;
   text-decoration: none;
   position: relative;
-  left: 600px;
+  left: 100px;
   top: 10px;
+  margin-top: 10px;
+
+  &:hover {
+    border: solid $silver 1px;
+    color: $smoky;
+    font-weight: $bold;
+  }
+
+  &:focus {
+    border: solid $silver 1px;
+    color: $silver;
+    font-weight: $bold;
+  }
 }
 
 //Hover State
-
-.button_shop:hover {
-  border: solid $smoky 1px;
-  color: $silver;
-}
-
-//Focus State
-
-
-.button_shop {
-  margin-top: 10px;
-}
