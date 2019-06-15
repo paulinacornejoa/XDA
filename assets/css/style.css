@@ -192,7 +192,109 @@ nav {
   font-family: "Old Standard TT", serif;
   font-size: 24px;
   left: 519px;
-  top: 734px;
+  top: 710px;
+}
+
+@media (max-width: 768px) {
+  .white_box {
+    width: 768px;
+    height: 100px;
+    background-color: #fff;
+    top: 430px;
+    position: absolute;
+  }
+
+  .black_box {
+    width: 700px;
+    height: 160px;
+    top: 727px;
+    background-color: #0C0910;
+    position: absolute;
+  }
+
+  h1 {
+    padding-top: 30px;
+  }
+
+  .rotate-text {
+    position: absolute;
+    transform: rotate(-270deg);
+    font-family: "Old Standard TT", serif;
+    font-size: 24px;
+    left: 685px;
+    top: 800px;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    background-image: url("../img/woman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 90px;
+  }
+
+  .white_box {
+    width: 375px;
+    height: 100px;
+    background-color: #fff;
+    top: 365px;
+    position: absolute;
+  }
+
+  .black_box {
+    width: 325px;
+    height: 153px;
+    top: 585px;
+    background-color: #0C0910;
+    position: absolute;
+  }
+
+  h3 {
+    padding-top: 10px;
+    padding-left: 8px;
+  }
+
+  h1 {
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+
+  h4 {
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    width: 320px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #A6A5A8;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .rotate-text {
+    position: absolute;
+    transform: rotate(-270deg);
+    font-family: "Old Standard TT", serif;
+    font-size: 24px;
+    left: 300px;
+    top: 645px;
+  }
+
+  .button_shop {
+    padding-left: 20px;
+    left: 25px;
+  }
+
+  h5 {
+    font-size: 20px;
+    font-family: "Old Standard TT", serif;
+    color: #fff;
+    top: 80px;
+    left: 100px;
+    position: absolute;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
